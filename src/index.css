@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Contenedor de botones */
+.swal2-actions {
+  display: flex !important;
+  gap: 10px; /* 🔥 separación */
+  justify-content: center;
+}
+
+/* Botón confirmar */
+.swal2-confirm {
+  background-color: #16a34a !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+}
+
+/* Botón cancelar */
+.swal2-cancel {
+  background-color: #6b7280 !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+}
